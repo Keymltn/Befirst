@@ -3,7 +3,6 @@ import m from "./Konkurs.module.scss";
 import data from "./konkurs.json";
 import prev from "../../assets/toLeft.svg";
 import next from "../../assets/toRight.svg";
-import kids_2 from "../../assets/kids_2.png";
 
 let itemPerPage = 12;
 
