@@ -1,252 +1,252 @@
 
 [
   {
-    "img": "http://localhost:5173/src/assets/kids_1.png",
+    "img": "../../../src/assets/kids_1.png",
     "title": "Испытай себя",
     "background": "#ED6059",
     "btn": "#F5C24D",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
   },
   {
-    "img": "http://localhost:5173/src/assets/kids_2.png",
+    "img": "../../../src/assets/kids_2.png",
     "title": "Качественные уроки",
     "background": "#F5C24D",
     "btn": "#ED6059",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
   },
   {
-    "img": "http://localhost:5173/src/assets/kids_3.png",
+    "img": "../../../src/assets/kids_3.png",
     "title": "Игрушки и игры",
     "background": "#ED6059",
     "btn": "#F5C24D",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
   },
   {
-    "img": "http://localhost:5173/src/assets/kids_4.png",
+    "img": "../../../src/assets/kids_4.png",
     "title": "Мой любимый учитель",
     "background": "#F5C24D",
     "btn": "#ED6059",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
   },
   {
-    "img": "http://localhost:5173/src/assets/kids_5.png",
+    "img": "../../../src/assets/kids_5.png",
     "title": "Творчество без границ",
     "background": "#ED6059",
     "btn": "#F5C24D",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
   },
   {
-    "img": "http://localhost:5173/src/assets/kids_6.png",
+    "img": "../../../src/assets/kids_6.png",
     "title": "Игрушки и игры",
     "background": "#F5C24D",
     "btn": "#ED6059",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
   },
   {
-    "img": "http://localhost:5173/src/assets/kids_1.png",
+    "img": "../../../src/assets/kids_1.png",
     "title": "Испытай себя",
     "background": "#ED6059",
     "btn": "#F5C24D",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
   },
   {
-    "img": "http://localhost:5173/src/assets/kids_2.png",
+    "img": "../../../src/assets/kids_2.png",
     "title": "Качественные уроки",
     "background": "#F5C24D",
     "btn": "#ED6059",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
   },
   {
-    "img": "http://localhost:5173/src/assets/kids_3.png",
+    "img": "../../../src/assets/kids_3.png",
     "title": "Игрушки и игры",
     "background": "#ED6059",
     "btn": "#F5C24D",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
   },
   {
-    "img": "http://localhost:5173/src/assets/kids_4.png",
+    "img": "../../../src/assets/kids_4.png",
     "title": "Мой любимый учитель",
     "background": "#F5C24D",
     "btn": "#ED6059",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
   },
   {
-    "img": "http://localhost:5173/src/assets/kids_5.png",
+    "img": "../../../src/assets/kids_5.png",
     "title": "Творчество без границ",
     "background": "#ED6059",
     "btn": "#F5C24D",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
   },
   {
-    "img": "http://localhost:5173/src/assets/kids_6.png",
+    "img": "../../../src/assets/kids_6.png",
     "title": "Игрушки и игры",
     "background": "#F5C24D",
     "btn": "#ED6059",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
   },
   {
-    "img": "http://localhost:5173/src/assets/kids_1.png",
+    "img": "../../../src/assets/kids_1.png",
     "title": "Испытай себя",
     "background": "red",
     "btn": "#F5C24D",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
   },
   {
-    "img": "http://localhost:5173/src/assets/kids_1.png",
+    "img": "../../../src/assets/kids_1.png",
     "title": "Качественные уроки",
     "background": "red",
     "btn": "#F5C24D",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
   },
   {
-    "img": "http://localhost:5173/src/assets/kids_1.png",
+    "img": "../../../src/assets/kids_1.png",
     "title": "Игрушки и игры",
     "background": "red",
     "btn": "#F5C24D",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
   },
   {
-    "img": "http://localhost:5173/src/assets/kids_1.png",
+    "img": "../../../src/assets/kids_1.png",
     "title": "Мой любимый учитель",
     "background": "red",
     "btn": "#F5C24D",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
   },
   {
-    "img": "http://localhost:5173/src/assets/kids_1.png",
+    "img": "../../../src/assets/kids_1.png",
     "title": "Творчество без границ",
     "background": "red",
     "btn": "#F5C24D",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
   },
   {
-    "img": "http://localhost:5173/src/assets/kids_1.png",
+    "img": "../../../src/assets/kids_1.png",
     "title": "Игрушки и игры",
     "background": "red",
     "btn": "#F5C24D",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
   },
   {
-    "img": "http://localhost:5173/src/assets/kids_1.png",
+    "img": "../../../src/assets/kids_1.png",
     "title": "Испытай себя",
     "background": "red",
     "btn": "#F5C24D",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
   },
   {
-    "img": "http://localhost:5173/src/assets/kids_1.png",
+    "img": "../../../src/assets/kids_1.png",
     "title": "Качественные уроки",
     "background": "red",
     "btn": "#F5C24D",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
   },
   {
-    "img": "http://localhost:5173/src/assets/kids_1.png",
+    "img": "../../../src/assets/kids_1.png",
     "title": "Игрушки и игры",
     "background": "red",
     "btn": "#F5C24D",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
   },
   {
-    "img": "http://localhost:5173/src/assets/kids_1.png",
+    "img": "../../../src/assets/kids_1.png",
     "title": "Мой любимый учитель",
     "background": "red",
     "btn": "#F5C24D",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
   },
   {
-    "img": "http://localhost:5173/src/assets/kids_1.png",
+    "img": "../../../src/assets/kids_1.png",
     "title": "Творчество без границ",
     "background": "red",
     "btn": "#F5C24D",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
   },
   {
-    "img": "http://localhost:5173/src/assets/kids_1.png",
+    "img": "../../../src/assets/kids_1.png",
     "title": "Игрушки и игры",
     "background": "red",
     "btn": "#F5C24D",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
   },
   {
-    "img": "http://localhost:5173/src/assets/kids_2.png",
+    "img": "../../../src/assets/kids_2.png",
     "title": "Испытай себя",
     "background": "dodgerblue",
     "btn": "#ED6059",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
   },
   {
-    "img": "http://localhost:5173/src/assets/kids_2.png",
+    "img": "../../../src/assets/kids_2.png",
     "title": "Качественные уроки",
     "background": "dodgerblue",
     "btn": "#ED6059",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
   },
   {
-    "img": "http://localhost:5173/src/assets/kids_2.png",
+    "img": "../../../src/assets/kids_2.png",
     "title": "Игрушки и игры",
     "background": "dodgerblue",
     "btn": "#ED6059",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
   },
   {
-    "img": "http://localhost:5173/src/assets/kids_2.png",
+    "img": "../../../src/assets/kids_2.png",
     "title": "Мой любимый учитель",
     "background": "dodgerblue",
     "btn": "#ED6059",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
   },
   {
-    "img": "http://localhost:5173/src/assets/kids_2.png",
+    "img": "../../../src/assets/kids_2.png",
     "title": "Творчество без границ",
     "background": "dodgerblue",
     "btn": "#ED6059",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
   },
   {
-    "img": "http://localhost:5173/src/assets/kids_2.png",
+    "img": "../../../src/assets/kids_2.png",
     "title": "Игрушки и игры",
     "background": "dodgerblue",
     "btn": "#ED6059",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
   },
   {
-    "img": "http://localhost:5173/src/assets/kids_2.png",
+    "img": "../../../src/assets/kids_2.png",
     "title": "Испытай себя",
     "background": "dodgerblue",
     "btn": "#ED6059",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
   },
   {
-    "img": "http://localhost:5173/src/assets/kids_2.png",
+    "img": "../../../src/assets/kids_2.png",
     "title": "Качественные уроки",
     "background": "dodgerblue",
     "btn": "#ED6059",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
   },
   {
-    "img": "http://localhost:5173/src/assets/kids_2.png",
+    "img": "../../../src/assets/kids_2.png",
     "title": "Игрушки и игры",
     "background": "dodgerblue",
     "btn": "#ED6059",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
   },
   {
-    "img": "http://localhost:5173/src/assets/kids_2.png",
+    "img": "../../../src/assets/kids_2.png",
     "title": "Мой любимый учитель",
     "background": "dodgerblue",
     "btn": "#ED6059",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
   },
   {
-    "img": "http://localhost:5173/src/assets/kids_2.png",
+    "img": "../../../src/assets/kids_2.png",
     "title": "Творчество без границ",
     "background": "dodgerblue",
     "btn": "#ED6059",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
   },
   {
-    "img": "http://localhost:5173/src/assets/kids_2.png",
+    "img": "../../../src/assets/kids_2.png",
     "title": "Игрушки и игры",
     "background": "dodgerblue",
     "btn": "#ED6059",
