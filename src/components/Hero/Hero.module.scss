@@ -1,0 +1,278 @@
+@import '../variables';
+
+// font-family: 'Baloo 2', sans-serif;
+// font-family: 'Exo', sans-serif;
+// font-family: 'Exo 2', sans-serif;
+// font-family: 'Inter', sans-serif;
+// font-family: 'Lato', sans-serif;
+
+.container{
+  max-width: 1020px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.hero{
+  width: 100%;
+  height: 100%;
+  background-image: url(../../assets/backgrouund_hero-1.png);
+  background-size: cover;
+}
+
+.hero_wrapper{
+  position: relative;
+  padding-top: 87px;
+  padding-bottom: 204px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero_info{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  h1{
+    margin-bottom: 100px;
+    color: #F2F2F2;
+    font-family: 'Baloo 2', sans-serif;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 113.7%;
+  }
+  img{
+    width: 261px;
+    height: 295px;
+  }
+}
+
+.hero_img{
+  img{
+    position: absolute;
+    bottom: 0px;
+    right: -150px;
+    z-index: 2;
+  }
+}
+
+// MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA
+
+@media only screen and (max-width: 1320px){
+  .hero_info{
+    h1{
+      margin-bottom: 100px;
+      font-size: 60px;
+      line-height: 113.7%;
+    }
+    img{
+      width: 261px;
+      height: 295px;
+    }
+  }
+
+  .hero_img{
+    img{
+      position: absolute;
+      bottom: 0px;
+      right: -100px;
+      z-index: 2;
+    }
+  }
+}
+
+@media only screen and (max-width: 1220px) {
+  .hero_info{
+    h1{
+      width: 88%;
+      margin-bottom: 100px;
+      font-size: 50px;
+      line-height: 113.7%;
+    }
+    img{
+      width: 261px;
+      height: 295px;
+    }
+  }
+
+  .hero_img{
+    img{
+      position: absolute;
+      bottom: 0px;
+      right: -20px;
+      z-index: 2;
+    }
+  }
+}
+
+@media only screen and (max-width: 1060px) {
+  .hero_wrapper {
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 218px;
+  }
+
+  .hero_info{
+    img{
+      width: 230px;
+      height: 260px;
+    }
+  }
+
+  .hero_img{
+    img {
+      width: 570px;
+      height: 750px;
+      right: 0;
+    }
+  } 
+}
+
+@media only screen and (max-width: 900px) {
+  .hero_info{
+    h1{
+      font-size: 42px;
+      margin-bottom: 33px;
+    }
+    img{
+      width: 210px;
+      height: 225px;
+    }
+  }
+
+  .hero_img{
+    img{
+      width: 360px;
+      height: 490px;  
+    }
+  }
+
+  .hero_wrapper {
+    padding-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .hero_img{
+    img{
+      width: 320px;
+      height: 436px;
+    }
+  }
+
+  .hero_info{
+    h1{
+      font-size: 37px;
+      margin-bottom: 50px;
+    }
+    img{
+      width: 180px;
+      height: 225px;
+    }
+  }
+}
+
+@media only screen and (max-width: 615px) {
+  .hero_img{
+    img{
+      width: 280px;
+      height: 380px;
+    }
+  }
+
+  .hero_info{
+    h1{
+      font-size: 30px;
+      margin-bottom: 50px;
+    }
+    img{
+      width: 140px;
+      height: 190px;
+    }
+  }
+}
+
+@media only screen and (max-width: 510px) {
+  .hero_img{
+    img{
+      width: 230px;
+      height: 313px;  
+    }
+  }
+
+  .hero_info{
+    h1{
+      font-size: 25px;
+      margin-bottom: 8px;  
+    }
+    img{
+      width: 125px;
+      height: 185px;  
+    }
+  }
+}
+
+@media only screen and (max-width: 434px) {
+  .hero_img{
+    img{
+      width: 190px;
+      height: 255px;
+    }
+  }
+
+  .hero_info{
+    h1{
+      font-size: 21px;
+      margin-bottom: 0px;
+    }
+    img{
+      width: 100px;
+      height: 155px;
+    }
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .hero_img{
+    img{
+      width: 150px;
+      height: 204px;  
+    }
+  }
+
+  .hero_info{
+    h1{
+      font-size: 17px;
+    }
+    img{
+      width: 70px;
+      height: 120px;
+    }
+  }
+
+  .hero_wrapper {
+    padding-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .hero_img{
+    img{
+      width: 130px;
+      height: 177px;
+    }
+  }
+
+  .hero_info{
+    h1{
+      font-size: 15px;
+    }
+    img{
+      width: 66px;
+      height: 100px;
+    }
+  }
+}

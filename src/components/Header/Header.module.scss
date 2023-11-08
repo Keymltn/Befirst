@@ -1,0 +1,268 @@
+@import '../variables';
+
+.container{
+  max-width: 1150px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.header{
+  width: 100%;
+  height: 100%;
+  padding: 9px 0 8px 0;
+  background-color: $primary-yellow;
+  display: flex;
+  align-items: center;
+}
+
+.header_wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_logo{
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.header_search{
+  border-left: 3px solid $primary-white;
+  padding: 33px 0 33px 35px;
+  margin-left: 47px;
+  cursor: pointer;
+}
+
+.header_pages{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  img{
+    cursor: pointer;
+  }
+  ul{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    li{
+      padding: 5px 7px;
+      margin-right: 23px;
+      transition: .5s;
+      border-radius: 21.5px;
+      a{
+        color: $primary-light-black;
+        font-family: 'Inter', sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-decoration: none;
+      }
+    }
+    li:hover{
+      background: #EFEBE2;
+    }
+  }
+}
+
+.header_menu{
+  display: none;
+}
+
+.header_sidebar{
+  width: 200px;
+  height: 100vh;
+  background-color: #bcbcbc;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 3;
+  padding: 10px;
+  transition: 1s;
+}
+
+.sidebar_hidden{
+  width: 200px;
+  height: 100vh;
+  background-color: #bcbcbc;
+  position: fixed;
+  top: 0;
+  right: -200px;
+  z-index: 2;
+  padding: 10px;
+  transition: 1s;
+}
+
+.header_sidebar-back{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_sidebar-back-icon{
+  width: 50px;
+  height: 50px;
+  color: dodgerblue;
+}
+
+.header_sidebar-pages{
+  ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: $primary-white;
+    margin-bottom: 5px;
+    li{
+      padding: 10px 20px;
+      width: 100%;
+      transition: .1s;
+      border-radius: 10px;
+      a{
+        color: $primary-light-black;
+        font-family: 'Inter', sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+      }
+      a:active{
+        color: #EFEBE2;
+      }
+    }
+    li:active{
+      background-color: dodgerblue;
+    }
+  }
+}
+
+// MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA
+
+@media only screen and (max-width: 1195px) {
+  .header{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .header_search{
+    padding: 33px 0 33px 20px;
+    margin-left: 30px;
+  }
+  .header_pages{
+    ul{
+      li{
+       margin-right: 10px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .header_search{
+    padding: 33px 0 33px 15px;
+    margin-left: 20px;
+  }
+  .header_pages{
+    ul{
+      li{
+       margin-right: 5px;
+       a{
+        font-size: 15px;
+       }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 930px) {
+  .header_logo-img{
+    width: 60px;
+  }
+
+  .header_search{
+    padding: 15px 0 15px 15px;
+    margin-left: 20px;
+  }
+
+  .header_pages{
+    ul{
+      li{
+       margin-right: 0;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 890px) {
+  .header_pages{
+    ul{
+      li{
+       a{
+        font-size: 13px;
+       }
+      }
+    }
+  }
+
+  .header_logo-img{
+    width: 50px;
+  }
+
+  .header_search{
+    padding: 20px 0 20px 15px;
+    margin-left: 20px;
+  }
+
+  .header_pages-threedots{
+    padding-top: 4px;
+    padding-left: 10px;
+  }
+}
+
+@media only screen and (max-width: 830px) {
+  .header_logo-img{
+    width: 44px;
+  }
+
+  .header_search{
+    padding: 15px 0 15px 15px;
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .header_search{
+    padding: 13px 0 13px 15px;
+    margin-left: 20px;
+  } 
+
+  .header_pages{
+    ul{
+      li{
+       padding: 3px 5px;
+       a{
+        font-size: 12px;
+       }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 725px) {
+  .header_pages{
+    display: none;
+  }
+  .header_menu{
+    display: block;
+  }
+
+  .header_menu-icon{
+    width: 40px;
+    height: 40px;
+  }
+}

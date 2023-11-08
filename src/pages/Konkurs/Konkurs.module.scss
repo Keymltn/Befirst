@@ -1,0 +1,616 @@
+@import '../../../src/components/variables';
+
+// font-family: 'Baloo 2', sans-serif;
+// font-family: 'Exo', sans-serif;
+// font-family: 'Exo 2', sans-serif;
+// font-family: 'Inter', sans-serif;
+// font-family: 'Lato', sans-serif;
+
+.container{
+  max-width: 1143px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.konkurs{
+  width: 100%;
+  height: 100%;
+  background-image: url('../../assets/background_elements.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.konkurs_wrapper{
+  width: 100%;
+  height: 100%;
+  padding: 20px 0 36px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.konkurs_hero{
+  width: 100%;
+  height: 100%;
+  background-image: url('../../assets/second_hero_background.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 71px 0 10px 98px;
+  h1{
+    color: $primary-black;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Baloo 2', sans-serif;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+  p{
+    width: 35%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: $primary-black;
+    text-align: justify;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  button{
+    border: none;
+    padding: 12px 31.5px;
+    border-radius: 15.5px;
+    background: #ED6059;
+    box-shadow: 0px 6px 10px 5px rgba(0, 0, 0, 0.25);
+    outline: none;
+    cursor: pointer;
+    transition: .5s;
+
+    color: $primary-white;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  button:hover{
+    box-shadow: none;
+  }
+}
+// CARDS CARDS CARDS CARDS CARDS CARDS CARDS CARDS CARDS
+
+.konkurs_cards-info{
+  width: 100%;
+  height: 100%;
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.konkurs_cards-wrapper{
+  width: 100%;
+  height: 100%;
+  display: flex;
+
+  justify-content: center;
+}
+
+.konkurs_cards{
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 33px;
+  grid-row-gap: 30px;
+}
+
+.konkurs_cards-red{
+  max-width: 359px;
+  width: 100%;
+  height: 366px;
+  border-radius: 7px;
+  background-color: $primary-red;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.70);
+}
+
+.konkurs_cards-red-info{
+  padding: 9px 12px 0 16px;
+  h4{
+    color: $primary-black;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  p{
+    color: $primary-black;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 17px 0 35px 0;
+  }
+  button{
+    max-width: 150px;
+    border-radius: 7px;
+    background: $primary-yellowish;
+    box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.25);
+    padding: 12px 40px;
+    border: none;
+    cursor: pointer;
+
+    color: $primary-black;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: .5s;
+  }
+
+  button:hover{
+    transform: scale(1.1);
+  }
+}
+
+.konkurs_cards-yellow{
+  max-width: 359px;
+  width: 100%;
+  height: 366px;
+  border-radius: 7px;
+  background-color: $primary-yellowish;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.70);
+}
+
+.konkurs_cards-yellow-info{
+  padding: 9px 12px 0 16px;
+  h4{
+    color: $primary-black;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  p{
+    color: $primary-black;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 17px 0 35px 0;
+  }
+  button{
+    max-width: 150px;
+    border-radius: 7px;
+    background: $primary-red;
+    box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.25);
+    padding: 12px 40px;
+    border: none;
+    cursor: pointer;
+
+    color: $primary-black;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: .5s;
+  }
+
+  button:hover{
+    transform: scale(1.1);
+  }
+}
+
+// PAGINATION PAGINATION PAGINATION PAGINATION PAGINATION
+
+.konkurs_pagination{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0 24px 0;
+}
+
+.pagination{
+  max-width: 210px;
+  width: 100%;
+  height: 31px;
+  background-color: $primary-yellowish;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  p{
+    color: $primary-black;
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    button{
+      outline: none;
+      border: none;
+      width: 31px;
+      height: 31px;
+      border-radius: 5px;
+      display: flex;
+      background: none;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+    }
+  }
+}
+
+.page_changer{
+  padding: 7px 6px 6px 8px;
+  background-color: #ED6059;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.active{
+  transition: 1s;
+  p{
+    transition: 1s;
+    width: 31px;
+    height: 31px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $primary-red;
+    color: $primary-white;
+    transform: scale(1.1);
+  }
+}
+
+
+// btn
+
+.konkurs_btn{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  button{
+    width: 261px;
+    height: 73px;
+    border: none;
+    border-radius: 15px;
+    background: $primary-red;
+    box-shadow: 0px 6px 10px 5px rgba(0, 0, 0, 0.25); 
+    cursor: pointer;   
+
+    color: $primary-white;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+
+// MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA
+
+@media only screen and (max-width: 1248px){
+  .konkurs{
+    padding: 0 20px 0 20px;
+  }
+
+  .konkurs_hero{
+    width: 100%;
+    padding-top: 0;
+    padding-left: 55px;
+    background-size: cover;
+    h1{
+      font-size: 60px;
+    }
+    p{
+      margin-top: 0;
+      margin-bottom: 5px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1181px) {
+  .konkurs_cards-red {
+    max-width: 350px;
+    img{
+      width: 100%;
+    }
+  }
+
+  .konkurs_cards-yellow {
+    max-width: 350px;
+    img{
+      width: 100%;
+    }
+  }
+} 
+
+@media only screen and (max-width: 1058px) {
+  .konkurs_cards-yellow-info{
+    padding: 9px 15px 0 16px;
+    h4{
+      font-size: 16px;
+    }
+    p{
+      font-size: 11px;
+      margin: 10px 0 22px 0;
+    }
+  }
+
+  .konkurs_cards-yellow {
+    height: 323px;
+  } 
+
+  .konkurs_cards-red-info{
+    padding: 9px 15px 0 16px;
+    h4{
+      font-size: 16px;
+    }
+    p{
+      font-size: 11px;
+      margin: 10px 0 22px 0;
+    }
+  }
+
+  .konkurs_cards-red {
+    height: 323px;
+  } 
+} 
+
+@media only screen and (max-width: 930px) {
+  .konkurs_hero{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    h1{
+      padding-top: 7px;
+      line-height: 60px;
+    }
+    p{
+      font-size: 14px;
+    }
+  }
+}
+
+
+@media only screen and (max-width: 815px) {
+  .konkurs_hero{
+    background-size: cover;
+    h1{
+      font-size: 50px;
+      padding-top: 7px;
+      line-height: 60px;
+    }
+    p{
+      font-size: 11px;
+    }
+    button {
+      padding: 12px 21px;
+      font-size: 12px;
+    }
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .konkurs_cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .konkurs_cards-yellow-info {
+    p {
+      margin: 10px 0 15px 0;
+    }
+  } 
+
+  .konkurs_cards-red-info {
+    p {
+      margin: 10px 0 15px 0;
+    }
+  } 
+}
+
+@media only screen and (max-width: 686px) {
+  .konkurs_hero{
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    h1{
+      font-size: 40px;
+      line-height: 45px;
+    }
+    p{
+      width: 40%;
+      font-size: 10px;
+    }
+    button {
+      padding: 12px 12px;
+    }
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .konkurs_cards-yellow {
+    height: 100%;
+  }
+
+  .konkurs_cards-red {
+    height: 100%;
+  }
+
+  .konkurs_cards-yellow-info{
+    p {
+      font-size: 10px;
+    }
+  }
+
+  .konkurs_cards-red-info{
+    p {
+      font-size: 10px;
+    }
+  }
+}
+
+@media only screen and (max-width: 630px) {
+  .konkurs_hero {
+    background-size: contain;
+    padding-left: 18px;
+    padding-top: 15px;
+  }
+}
+
+@media only screen and (max-width: 590px) {
+  .konkurs_hero{
+    h1 {
+     font-size: 35px;
+     line-height: 30px;
+    }
+  }
+}
+
+@media only screen and (max-width: 565px) {
+  .konkurs_hero{
+    background-size: cover;
+    h1{
+      font-size: 30px;
+    }
+    p{
+      width: 35%;
+      font-size: 7px;
+    }
+    button {
+      padding: 9px 9px;
+      font-size: 9px;
+    }
+  }
+}
+
+@media only screen and (max-width: 476px) {
+  .konkurs_cards-yellow-info{
+    h4 {
+      font-size: 15px;
+    }
+  }
+
+  .konkurs_cards-red-info{
+    h4 {
+      font-size: 15px;
+    }
+  }
+}
+
+@media only screen and (max-width: 455px) {
+  .konkurs_hero{
+    padding-left: 15px;
+    h1{
+      line-height: 30px;
+      font-size: 25px;
+    }
+    p{
+      font-size: 6px;
+    }
+    button {
+      padding: 7px 7px;
+      font-size: 8px;
+    }
+
+  }
+
+  .konkurs_cards-red-info {
+    padding-bottom: 10px;
+  }
+
+  .konkurs_cards-yellow-info {
+    padding-bottom: 10px;
+  }
+  
+  .konkurs_cards {
+    width: 73%;
+    grid-template-columns: repeat(1, 300px);
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .konkurs_only-cards-wrapper{
+    display: flex;
+    justify-content: center;
+  }
+
+  .konkurs_cards {
+    width: 100%;
+  }
+
+  .konkurs_hero {
+    background-size: contain;
+  }
+
+  .konkurs_hero {
+    padding-top: 0;
+  }
+} 
+
+@media only screen and (max-width: 395px) {
+  .konkurs_hero {
+    background-size: cover;
+  }
+
+  .konkurs_hero{
+    h1 {
+      line-height: 40px;
+      font-size: 30px;
+    }
+    p{
+      width: 44%;
+      font-size: 7px;
+    }
+  }
+} 
+
+@media only screen and (max-width: 365px) {
+  .konkurs_hero{
+    h1{
+      line-height: 26px;
+      font-size: 22px;
+    }
+    p{
+      font-size: 5px;
+    } 
+    button {
+      padding: 6px 6px;
+      font-size: 7px;
+    }
+  }
+
+  .konkurs_cards {
+    grid-template-columns: repeat(1, 275px);
+  }
+}
+
+@media only screen and (max-width: 313px) {
+  .konkurs_hero{
+    padding-bottom: 10px;
+  }
+
+  .konkurs_cards {
+    grid-template-columns: repeat(1, 240px);
+  }
+
+}
